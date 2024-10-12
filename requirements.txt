@@ -50,9 +50,9 @@ kiwisolver==1.4.7
 lxml==5.3.0
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
-matplotlib==3.9.2
-matplotlib-inline==0.1.7
-mdurl==0.1.2
+matplotlib
+matplotlib-inline
+mdurl
 multidict==6.1.0
 narwhals==1.9.1
 nest-asyncio==1.6.0
