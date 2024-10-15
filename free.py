@@ -20,8 +20,7 @@ load_dotenv()
 OpenAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = AsyncOpenAI(api_key=OpenAI_API_KEY)
 
-AudioSegment.converter = "/usr/local/bin/ffmpeg"  # Adjust this path as necessary
-AudioSegment.ffmpeg = "/usr/local/bin/ffprobe"    # Adjust this path as necessary
+
 
 # Voice settings for each speaker
 VOICE_SETTINGS = {
