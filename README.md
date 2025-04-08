@@ -1,4 +1,4 @@
-# Learncast_backend
+# Learncast AI
 
 ## Project Overview
 
