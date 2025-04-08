@@ -3,4 +3,4 @@ generated_local
 .venv
 frontend
 as
-
+/generated_local
