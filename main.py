@@ -20,7 +20,7 @@ load_dotenv()
 client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY "))
 
 AudioSegment.converter = "/usr/local/bin/ffmpeg"  
-AudioSegment.ffmpeg = "/usr/local/bin/ffprobe"    \
+AudioSegment.ffmpeg = "/usr/local/bin/ffprobe"    
 
 # Voice settings for each speaker
 VOICE_SETTINGS = {
@@ -79,7 +79,7 @@ async def generate_podcast_task(podcast_id: str, request: PodcastRequest):
         podcast_statuses[podcast_id] = PodcastStatus(id=podcast_id, status="completed", podcast_url=podcast_url)
        
     except Exception as e:
-       \
+       
         podcast_statuses[podcast_id] = PodcastStatus(id=podcast_id, status="failed", podcast_url=str(e))
 
 async def extract_content(source_type: str, source: str) -> str:
