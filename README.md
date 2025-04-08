@@ -27,8 +27,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/cal3bdev/Learncast_backend.git
-   cd Learncast_backend
+   git clone https://github.com/cal3bdev/LearnCast-AI.git
+   
    ```
 
 2. **Create a virtual environment** (optional but recommended):
@@ -50,7 +50,7 @@ To set up the project locally, follow these steps:
 
 5. **Run the FastAPI server**:
    ```bash
-   python App/main.py
+   python main.py
    ```
 
 6. **Run the Streamlit UI**:
